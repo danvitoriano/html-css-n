@@ -1,0 +1,40 @@
+body {
+    color: #00009f;
+}
+
+.with-background {
+    background-image: url('../img/tile.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+}
+
+.menu {
+    text-align: center;
+    background-color: black;
+}
+
+li {
+    padding-right: 40px;
+    display: inline;
+
+}
+
+a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    border-top: 3px solid white;
+    color: white;
+}
